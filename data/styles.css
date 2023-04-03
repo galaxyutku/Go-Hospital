@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background: url(images/stetescop.jpeg) fixed;
+    background-size: cover;
+}
+.header{
+    width: 100%;
+    height: 112px;
+    display: block;
+}
+.inner_header{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #79cfff;
+    display: block;
+}
+.image_container{
+    height: 100%;
+    display: block;
+    float: left;
+    margin-left: 30px;
+}
+.headline_container{
+    height: 100%;
+    display: table;
+    float:left;
+    margin-left: 30px;
+    background-color: rgb(195, 230, 101);
+}
+.headline_container h1{
+    height: 100%;
+    font-size: 1.3em;
+    font-family: 'Signika Negative', sans-serif;
+    display: table-cell;
+    vertical-align: middle;
+    color: rgb(73, 69, 69);
+    padding: 15px;
+    font-weight: 200;
+}
+.headline_container h1 span{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-weight:800;
+}
+.navigators{
+    float: right;
+    height: 100%;
+}
+.navigators a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    transition: all 0.3s ease 0s;
+}
+.navigators a:hover{
+    background-color: rgb(195, 230, 101);
+}
+.navigators a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.information{
+    max-width: 1170px;
+    height: auto;
+    display: block;
+    margin: 100px 330px;
+}
+.inner_information{
+    border-radius: 1em;
+    background:-webkit-linear-gradient(top, rgb(255, 255, 255), rgba(255, 255, 255, 0.7));
+    height: 100%;
+    width: 100%;
+    display: block;
+    font-family: 'Rubik', sans-serif;
+    padding: 4em 3em 2em 2em;
+}
+.inner_information p{
+    line-height: 40px;
+    text-indent: 25px;
+    padding: 20px;
+    font-size: 1.3em;
+    word-spacing: 1.5px;
+}
+.inner_information h1{
+    font-size: 3em;
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+    text-align: center;
+    border-bottom: black dashed 5px;
+}
+.blocks{
+    width: 20%;
+    height: 100%;
+    display: block;
+}
+.categories{
+    width: auto;
+    height: 100%;
+    background-color: rgb(53, 53, 53);
+    margin: 250px 80px;
+    display: block;
+    float: left;
+}
+.categories ul{
+    list-style-type: none;
+}
+.categories a{
+    display: table;
+    transition: all 0.3s ease 0s;
+    width: 250px;
+}
+.categories a:hover{
+    background-color: rgb(110, 110, 110);
+}
+.categories a span{
+    float: right;
+    padding-right: 1em;
+    color: rgb(221, 221, 221);
+}
+.categories a li{
+    font-family: 'Heebo', sans-serif;
+    display: table-cell;
+    width: 100%;
+    font-size: 1.6em;
+    padding-left:18px;
+    color: rgb(221, 221, 221);
+}
+.misc_infos{
+    float:left;
+    height: auto;
+    max-width: 60%;
+    margin: 100px auto;
+    background:-webkit-linear-gradient(top, rgb(255, 255, 255), rgba(255, 255, 255, 0.5));
+    border-radius: 1em;
+    padding: 4em 3em 2em 2em;
+    font-family: 'Rubik', sans-serif;
+}
+.misc_inners h1{
+    width: 100%;
+    height: auto;
+    font-size: 3em;
+    padding-bottom: 50px;
+    text-align: center;
+    border-bottom: black dashed 5px;
+}
+.misc_inners p{
+    margin-top: 50px;
+    line-height: 25px;
+    text-indent: 25px;
+    padding: 20px;
+    font-size: 1.3em;
+}
+.misc_inners{
+    height: auto;
+    width: 100%;
+}
+.contact_blocks{
+    display:flex;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.contactheader h2{
+    width: 27%;
+    height: 100px;
+    font-size: 3em;
+    margin: 100px auto;
+    text-align: center;
+    background:-webkit-linear-gradient(top, rgb(255, 255, 255), rgba(255, 255, 255, 0.7));
+    border-radius: 0.5em;
+    padding-top: 35px;
+}
+.phone_information{
+    background:-webkit-linear-gradient(top, rgb(255, 255, 255), rgba(255, 255, 255, 0.7));
+    display: block;
+    border-radius: 1em;
+    text-align: center;
+    min-height: 200px;
+    width: 25%;
+    margin-right: 50px;
+    padding: 2em 3em 2em 2em;
+}
+.phone_information h1{
+    font-size: 2em;
+    border-bottom: black dashed 5px;
+    padding-bottom: 1em;
+}
+.phone_information p{
+    font-size: 1.3em;
+    padding-top: 1.5em;
+}
+.mail_information{
+    width: 25%;
+    min-height: 200px;
+    display: block;
+    background:-webkit-linear-gradient(top, rgb(255, 255, 255), rgba(255, 255, 255, 0.7));
+    border-radius: 1em;
+    text-align: center;
+    margin-left: 50px;
+    padding: 2em 3em 2em 2em;
+}
+.mail_information h1{
+    font-size: 2em;
+    border-bottom: black dashed 5px;
+    padding-bottom: 1em;
+}
+.mail_information p{
+    font-size: 1.3em;
+    padding-top: 1.5em;
+}
+.login_container{
+    background: -webkit-linear-gradient(left, #79cfff, rgb(0, 255, 157));
+    width: 400px;
+    height: 100%;
+    margin: 100px auto;
+    padding-bottom: 20px;
+    font-family: 'Heebo', sans-serif;
+    border-radius: 10px;
+}
+.login_container form{
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+}
+.login_container form .field{
+    height: 40px;
+    width: 90%;
+    padding: 20px 15px;
+    text-align: center;
+    outline: 0;
+    box-shadow: none;
+    border: 0;
+}
+.login_container form .field input{
+    height: 100%;
+    width: 100%;
+    background: rgb(240, 240, 240);
+    border-width: 1px;
+    text-align: center;
+    outline: 0;
+    box-shadow: none;
+    border: 0;
+    font-size: 17px;
+}
+.login_container form select{
+    height: 40px;
+    width: 100%;
+    font-size: 18px;
+    background: rgb(240, 240, 240);
+    appearance: none;
+    text-align: center;
+}
+.login_container form .forgpw p{
+    margin: 15px;
+}
+.login_container form .submitbutton{
+    height: 40px;
+    width: 100%;
+    padding: 20px 15px;
+}
+.login_container form .submitbutton input:hover{
+    transition: all 0.3s ease 0s;
+    background-color: rgb(195, 230, 101);
+}
+.login_container form .submitbutton input{
+    height: 100%;
+    width: 90%;
+    font-size: 20px;
+    border: 1px lightgray;
+    appearance: none;
+    outline: none;
+}
+.login_container .ltext p{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 50px;
+}
+.login_container span p{
+    width: 100%;
+    height: 100%;
+    margin: 15px;
+}
+.login_container span p a:visited, .login_container span p a:visited, .login_container .forgpw p a:focus, .login_container .forgpw p a:visited{
+    color: blue;
+}
+.profile_container{
+    background-color:rgb(226, 226, 226);
+    max-width: 55%;
+    min-height: 100%;
+    margin: 100px auto;
+    display: block;
+    border:black solid 1px;
+    border-radius: 5px;
+}
+.profile_header{
+    display: block;
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 60px;
+    border-bottom: black solid 1px;
+    border-radius: 5px;
+    
+}
+.profile_header ul{
+    display: table;
+    font-size: 17px;
+    width: 100%;
+    height: 100%;
+}
+.profile_header a{
+    display: table-cell;
+    transition: all 0.3s ease 0s;
+    width: 25%;
+    height: 100%;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.profile_header a li{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.profile_header a:hover{
+    background-color: rgb(0, 0, 0);
+}
+.profile_container .form_container{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.profile_container .form_container form .infofield{
+    display: flex;
+    height: 150px;
+    width: 100%;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+.profile_container .form_container form .infofield label{
+    display: block;
+    margin: 60px;
+    width: 30%;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.submitapp{
+    display: block;
+    height: 55px;
+    width: 250px;
+    margin: 40px auto 40px;
+    text-align: center;
+    background-color: rgb(71, 71, 71);
+    color: rgb(255, 255, 255);
+    border: none;
+    box-shadow: none;
+    outline: none;
+    border-radius: 5px;
+    transition: all 0.3s ease 0s;
+    font-size: 17px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+.submitapp:hover{
+    background-color: azure;
+    color: rgb(71, 71, 71);
+    font-weight: 500;
+}
+.app_table tr,th{
+    padding: 12px 15px;
+}
+.app_table thead tr{
+    background-color: rgb(44, 44, 44);
+    color: rgb(243, 243, 243);
+}
+.app_table tbody th{
+    border: 1px solid black;
+}
+.app_table table{
+    border-collapse: collapse;
+    border:1px solid black;
+    margin: 100px auto;
+    min-width: 400px;
+}
+.app_table{
+    text-align: center;
+    margin: 50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.app_table h2{
+    margin-top: 40px;
+}
+.infofield .profinput{
+    width: 50%;
+    height: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    margin: 30px;
+}
+.infofield select {
+    font-size: 18px;
+    background: rgb(71, 71, 71);
+    appearance: none;
+    text-align: center;
+    outline: 0;
+    box-shadow: none;
+    border: 0;
+    border-radius: 5px;
+    color: azure;
+    margin: 30px;
+    width: 50%;
+    height: 40px;
+}
+.infofield .profinput{
+    font-size: 18px;
+    background: rgb(71, 71, 71);
+    appearance: none;
+    text-align: center;
+    outline: 0;
+    box-shadow: none;
+    border: 0;
+    border-radius: 5px;
+    color: azure;
+}
+.idremove{
+    width: 100%;
+    height: auto;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    margin: 50px auto;
+    text-align: center;
+}
+.idremove .putbox{
+    font-size: 18px;
+    background: rgb(71, 71, 71);
+    appearance: none;
+    text-align: center;
+    outline: 0;
+    box-shadow: none;
+    border: 0;
+    border-radius: 5px;
+    color: azure;
+    height: 50px;
+    width: 250px;
+}
